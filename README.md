@@ -1,8 +1,8 @@
-# VAF Public Website Version
+# VAF - Public Website Version
 
-This is the **master** branch and public website version of **VAF**.  Object data in this project is held in `./data/items.toml` and in this version each of the `[[items]]` keys DOES have a `url` key/value pair.  This is largely what makes the **masterk** version differnt than **kiosk**, the version built to run on the iPad kiosk in the HSSC on campus.
+This is the **main** branch and public website version of **VAF**.  Object data in this project is held in `./data/items.toml` and in this version each of the `[[items]]` keys DOES have a `url` key/value pair.  This is largely what makes this **public-facing** version different than the corresponding **kiosk** version which can now be found in https://github.com/Digital-Grinnell/vaf-kiosk.  The **kiosk** version is built to run on the iPad kiosk in the north end of the HSSC atrium on campus.
 
-## Deploying this Site
+## Obsolete - Instructions Beyond This Point Are Out-of-Date!
 
 As of 30-Apr-2020, this site is intended to be deployed using my [docker-traefik2-host](https://github.com/McFateM/docker-traefik2-host) approach.  A `docker container run` command is no longer used to launch [the site](https://static.grinnell.edu/) on Grinnell College's `static.Grinnell.edu` server, so no more...
 
