@@ -1,3 +1,4 @@
+baseurl = "https://static.grinnell.edu/vaf/"
 #baseurl = "https://vaf.grinnell.edu/"
 #baseurl = "https://static.grinnell.edu/vaf/"
 #baseurl = "https://var.docksal/"
@@ -36,12 +37,12 @@ publishdir = "public"
     # add custom css
     custom_css = ['/css/custom.css']
 
-
 [markup]
   [markup.goldmark]
     [markup.goldmark.extensions]
       linkify = false
-
+    [markup.goldmark.renderer]
+      unsafe = true
 
 # Lifted from https://gohugo.io/content-management/menus/
 [menu]
